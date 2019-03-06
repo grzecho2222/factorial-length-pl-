@@ -1,0 +1,48 @@
+from math import sqrt 
+from math import log
+x=6 # factorial of 3
+
+for i in range(4) : # function for factorial 4 - 7
+   x=x*(i+4)
+   print (i+4,"! ma",len(str(x)),"cyfry")
+
+for i in range(93) : # function for factorial 8 - 100
+   if len(str(x*(i+8))) % 10 ==0:
+      x=x*(i+8)
+      print (i+8,"! ma",len(str(x)),"cyfr")
+   else:
+      if len(str(x*(i+8))) % 10 ==1:
+         x=x*(i+8)
+         print (i+8,"! ma",len(str(x)),"cyfr")
+      else:
+         if len(str(x*(i+8))) % 10 ==2:
+            x=x*(i+8)
+            print (i+8,"! ma",len(str(x)),"cyfry")
+         else:
+            if len(str(x*(i+8))) % 10 ==3:
+               x=x*(i+8)
+               print (i+8,"! ma",len(str(x)),"cyfry")
+            else:
+               if len(str(x*(i+8))) % 10 ==4:
+                  x=x*(i+8)
+                  print (i+8,"! ma",len(str(x)),"cyfry")
+               else:
+                  if len(str(x*(i+8))) % 10 ==5:
+                     x=x*(i+8)
+                     print (i+8,"! ma",len(str(x)),"cyfr")
+                  else:
+                     if len(str(x*(i+8))) % 10 ==6:
+                        x=x*(i+8)
+                        print (i+8,"! ma",len(str(x)),"cyfr")
+                     else:
+                        if len(str(x*(i+8))) % 10 ==7:
+                           x=x*(i+8)
+                           print (i+8,"! ma",len(str(x)),"cyfr")
+                        else:
+                           if len(str(x*(i+8))) % 10 ==8:
+                              x=x*(i+8)
+                              print (i+8,"! ma",len(str(x)),"cyfr")
+                           else:
+                              if len(str(x*(i+8))) % 10 ==9:
+                                 x=x*(i+8)
+                                 print (i+8,"! ma",len(str(x)),"cyfr")
